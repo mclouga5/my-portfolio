@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 
-export interface ColourDragProps {}
 
-export function ColourDrag(props: ColourDragProps) {
-    const [_, setFinalBackgroundColor] = React.useState('#008b8b');
+
+export function ColourDrag() {
+  const [_, setFinalBackgroundColor] = React.useState('#008b8b');
 
   const pink = 'hsl(340, 57%, 64%)';
   const teal = 'hsl(180, 100%, 27%)';
