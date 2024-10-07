@@ -1,7 +1,7 @@
+'use client';
+
 import * as React from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-
-
 
 export function ColourDrag() {
   const [_, setFinalBackgroundColor] = React.useState('#008b8b');

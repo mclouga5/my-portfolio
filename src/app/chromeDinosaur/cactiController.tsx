@@ -1,6 +1,5 @@
 import Cactus from "./cactus";
 
-
 export default class CactiController {
   CACTUS_INTERVAL_MIN: number = 500;
   CACTUS_INTERVAL_MAX: number = 2000;

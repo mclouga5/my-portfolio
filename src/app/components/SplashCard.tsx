@@ -1,3 +1,5 @@
+'use client';
+
 import "../globals.css";
 import { motion, Variants } from "framer-motion";
 
