@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import dinoRunImage1 from '/media/dinoRun1.png';
 import dinoRunImage2 from '/media/dinoRun2.png';
@@ -43,7 +45,7 @@ export default class Player {
 
         // Initialize images
         this.standingStillImage = new Image();
-        this.standingStillImage.src = standingStill.src; 
+        this.standingStillImage.src = standingStill.src;
 
         this.image = this.standingStillImage; // Set default image
 

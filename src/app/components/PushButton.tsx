@@ -19,13 +19,6 @@ const PushButton: React.FC<PushButtonProps> = ({
   size = 'w-40 h-16',
   additionalClasses = '',
 }) => {
-
-  if (typeof window !== "undefined") {
-    console.log("This code is running on the client");
-  } else {
-    console.log("This code is running on the server");
-  }
-  
   return (
     <div
     className={`button ${size} ${color} cursor-pointer select-none
