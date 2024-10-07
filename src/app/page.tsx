@@ -6,8 +6,6 @@ import WhackAMole from './whackAMole/wam';
 import TicTacToe from './ticTacToe/ttt';
 import SplashCard from './components/SplashCard';
 import { ColourDrag } from './components/ColourDrag';
-import WeatherAppPreview from './ExternalProjects/weatherAppPreview';
-import ProjectShowcase from './ExternalProjects/projectsShowcase';
 import ProjectCarousel from './ExternalProjects/projectsShowcase';
 
 export default function Home() {

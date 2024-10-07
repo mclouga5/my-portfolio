@@ -26,7 +26,7 @@ const WhackAMole: React.FC = () => {
 
   useEffect(() => {
     startGame();
-    return () => clearIntervals(); // Clean up intervals on unmount
+    return () => clearIntervals();
   }, []);
 
   const startGame = () => {
