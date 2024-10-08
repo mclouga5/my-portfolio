@@ -130,10 +130,10 @@ const TicTacToe: React.FC = () => {
 };
 
 const getBorderStyles = (index: number) => {
-    const topBorder = index > 2 ? 'border-t-2 border-white' : '';
-    const bottomBorder = index < 6 ? 'border-b-2 border-white' : '';
-    const leftBorder = index % 3 !== 0 ? 'border-l-2 border-white' : '';
-    const rightBorder = index % 3 !== 2 ? 'border-r-2 border-white' : '';
+    const topBorder = index > 2 ? 'border-t-2 border-white h-[10vh] md:h-[20vh]' : '';
+    const bottomBorder = index < 6 ? 'border-b-2 border-white h-[10vh] md:h-[20vh]' : '';
+    const leftBorder = index % 3 !== 0 ? 'border-l-2 border-white h-[10vh] md:h-[20vh]' : '';
+    const rightBorder = index % 3 !== 2 ? 'border-r-2 border-white h-[10vh] md:h-[20vh]' : '';
 
     return `${topBorder} ${bottomBorder} ${leftBorder} ${rightBorder}`;
   };

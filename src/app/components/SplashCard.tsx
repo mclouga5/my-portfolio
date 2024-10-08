@@ -61,9 +61,8 @@ export default function SplashCard({ element, onClick }: CardProps) {
         const height = window.innerHeight;
         const scale = Math.min(width, height) / 1000;
         setDimensions({ width, height, scale });
-    }, []); 
+    }, []);
 
-    // Get the calculated values from state
     const { scale } = dimensions;
     const clipPath = `path("M ${0 * scale} ${303.5 * scale} C ${0 * scale} ${292.454 * scale} ${8.995 * scale} ${285.101 * scale} ${20 * scale} ${283.5 * scale} L ${460 * scale} ${219.5 * scale} C ${470.085 * scale} ${218.033 * scale} ${480 * scale} ${228.454 * scale} ${480 * scale} ${239.5 * scale} L ${500 * scale} ${430 * scale} C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z")`;
 

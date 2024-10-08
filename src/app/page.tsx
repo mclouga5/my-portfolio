@@ -9,7 +9,7 @@ import { ColourDrag } from './components/ColourDrag';
 import ProjectCarousel from './ExternalProjects/projectsShowcase';
 
 export default function Home() {
-  const [activeGame, setActiveGame] = useState<number | null>(null);
+  const [activeGame, setActiveGame] = useState(0);
 
   const games = [
     {
