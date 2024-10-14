@@ -38,7 +38,7 @@ const ToggleComponentPreview = () => {
           Toggle Answer Question Component
         </motion.h2>
         <motion.p className="mb-6" variants={itemVariants}>
-          A base component that I'm in the process of making reusable for any quiz you like!
+          A base component that I&apos;m in the process of making reusable for any quiz you like!
           Usable for questions with single or multiple correct answers, or with multiple parts to build up a correct answer, with a background that changes based on how correct the selected answer is.
           <br></br>
           <br></br>
