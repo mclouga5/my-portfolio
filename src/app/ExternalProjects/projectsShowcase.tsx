@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import WeatherAppPreview from './weatherAppPreview';
 import PersonalWebsitePreview from './personalWebpagePreview';
+import ToggleComponentPreview from './toggleComponentPreview'
 import UpcomingPreview from './upcoming';
 
 interface Project {
@@ -13,9 +14,10 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { id: 'weather-app', title: 'Weather App', component: <WeatherAppPreview /> },
-  { id: 'personal-website', title: 'Personal Website', component: <PersonalWebsitePreview /> },
-  { id: 'upcoming', title: 'Coming Soon...', component: <UpcomingPreview /> },
+    { id: 'upcoming', title: 'Coming Soon...', component: <UpcomingPreview /> },
+    { id: 'personal-website', title: 'Personal Website', component: <PersonalWebsitePreview /> },
+    { id: 'weather-app', title: 'Weather App', component: <WeatherAppPreview /> },
+    { id: 'toggle-components', title: 'Toggle Component', component: <ToggleComponentPreview /> },
 ];
 
 interface AnimationProps {

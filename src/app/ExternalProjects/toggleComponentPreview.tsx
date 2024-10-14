@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const WeatherAppPreview = () => {
+const ToggleComponentPreview = () => {
   const containerVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -35,16 +35,18 @@ const WeatherAppPreview = () => {
           variants={itemVariants}
           whileInView="visible"
         >
-          Weather App
+          Toggle Answer Question Component
         </motion.h2>
         <motion.p className="mb-6" variants={itemVariants}>
-          Check out my Weather App repository, powered by nextJS, React and TypeScript.
-          <br></br> <br></br>
-          This app fetches weather data from an external API and displays it beautifully.
+          A base component that I'm in the process of making reusable for any quiz you like!
+          Usable for questions with single or multiple correct answers, or with multiple parts to build up a correct answer, with a background that changes based on how correct the selected answer is.
+          <br></br>
+          <br></br>
+          Responsive across devices and made using React, Typescript and Tailwind CSS.
         </motion.p>
         <div className="flex justify-center space-x-4">
           <motion.a
-            href="https://github.com/mclouga5/nextjs_weather_app"
+            href="https://github.com/mclouga5/react_toggle_quiz_project"
             target="_blank"
             rel="noopener noreferrer"
             variants={itemVariants}
@@ -55,7 +57,7 @@ const WeatherAppPreview = () => {
             View on GitHub
           </motion.a>
           <motion.a
-            href="https://nextjs-weather-gu3wr108z-aoifes-projects-f9da3bfc.vercel.app/"
+            href="https://mclouga5.github.io/react_toggle_quiz_project/"
             target="_blank"
             rel="noopener noreferrer"
             variants={itemVariants}
@@ -71,4 +73,4 @@ const WeatherAppPreview = () => {
   );
 };
 
-export default WeatherAppPreview;
+export default ToggleComponentPreview;

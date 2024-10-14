@@ -78,9 +78,9 @@ export default function SplashCard({ element, onClick }: CardProps) {
             <div className="splash" style={{ background, clipPath }} />
             <motion.div className="card md:h-[40vh]" variants={cardVariants}>
                 <img
-                    src={element.image} // Use the image path directly
+                    src={element.image}
                     alt={element.name}
-                    className="element-image" // Add styling for the image
+                    className="element-image"
                 />
             </motion.div>
         </motion.div>
